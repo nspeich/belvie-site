@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto y presupuesto · BelVie · Salón Mainumby, Capiatá</title>
+  <meta name="description" content="Contacta con BelVie: WhatsApp, teléfono, email y formulario de presupuesto para el salón Mainumby en Capiatá, Paraguay." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">Bel<span>Vie</span></span>
+        <span class="brand-sub"><strong>Salón Mainumby</strong>Capiatá · Paraguay</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+      <nav class="nav">
+        <a href="el-salon.html">El salón</a>
+        <a href="celebraciones.html">Celebraciones</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="faq.html">FAQ</a>
+        <a class="nav-cta" href="contacto.html">Pedir presupuesto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero__media crop-c"><img src="assets/img/mainumby.jpg" alt="Salón Mainumby" /></div>
+    <div class="container">
+      <p class="crumbs"><a href="index.html">Inicio</a> / <span>Contacto</span></p>
+      <span class="eyebrow eyebrow--light">Hablemos</span>
+      <h1>Contacto y presupuesto</h1>
+      <p>Cuéntanos la fecha, el tipo de evento y el número de invitados. Te respondemos en 24 horas con una propuesta y la disponibilidad del salón.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <span class="eyebrow">Directo</span>
+          <h2>Escríbenos</h2>
+          <ul class="contact-list" style="margin-top:24px">
+            <li>
+              <span class="label">WhatsApp</span>
+              <a href="https://wa.me/595981000000" target="_blank" rel="noopener">+595 981 000 000</a>
+            </li>
+            <li>
+              <span class="label">Teléfono</span>
+              <a href="tel:+595994900040">0994 900 040</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:info@belvie.com.py">info@belvie.com.py</a>
+            </li>
+            <li>
+              <span class="label">Salón</span>
+              <span class="value">Salón Mainumby · Capiatá, Paraguay<br />Acceso desde la ruta PY02 · dirección exacta al confirmar la visita</span>
+            </li>
+            <li>
+              <span class="label">Horario de atención</span>
+              <span class="value">Lunes a viernes, 08:00 – 18:00<br />Sábados, 08:00 – 12:00</span>
+            </li>
+          </ul>
+
+          <div class="map-frame" id="mapa">
+            <iframe
+              title="Ubicación del salón Mainumby en Capiatá"
+              src="https://maps.google.com/maps?q=Capiat%C3%A1%2C%20Paraguay&z=12&hl=es&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <p class="price-note">Mapa a nivel de ciudad. La ubicación exacta y el itinerario se envían al confirmar la visita.</p>
+        </div>
+
+        <div>
+          <span class="eyebrow">Formulario</span>
+          <h2>Solicitar presupuesto</h2>
+          <form class="quote-form" style="margin-top:24px" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="nombre">Nombre y apellido</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+              </div>
+              <div class="form-field">
+                <label for="telefono">Teléfono o WhatsApp</label>
+                <input id="telefono" name="telefono" type="tel" placeholder="0981 000 000" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="tu@email.com" />
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="tipo">Tipo de evento</label>
+                <select id="tipo" name="tipo">
+                  <option value="">– Seleccionar –</option>
+                  <option>Boda</option>
+                  <option>Quince años</option>
+                  <option>Egreso</option>
+                  <option>Aniversario o evento familiar</option>
+                  <option>Cóctel o degustación</option>
+                  <option>Evento de empresa</option>
+                  <option>Evento institucional</option>
+                  <option>Concierto</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="fecha">Fecha prevista</label>
+                <input id="fecha" name="fecha" type="date" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="invitados">Número de invitados</label>
+                <input id="invitados" name="invitados" type="number" min="1" placeholder="150" />
+              </div>
+              <div class="form-field">
+                <label for="espacio">Espacio</label>
+                <select id="espacio" name="espacio">
+                  <option value="">– A definir –</option>
+                  <option>Sala principal</option>
+                  <option>Patio</option>
+                  <option>Sala + patio</option>
+                  <option>Altillo</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="mensaje">Contanos tu idea</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Estilo, horario, servicios que necesitas..."></textarea>
+            </div>
+            <button class="btn btn--gold" type="submit" style="width:100%">Enviar solicitud</button>
+            <p class="form-note">Tus datos se utilizan únicamente para responder a tu solicitud. Ver <a href="aviso-legal.html" style="color:#b8942e">aviso legal</a>.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Cómo llegar</span>
+        <h2>A minutos de la ruta PY02</h2>
+        <p>El salón se encuentra en el casco urbano de Capiatá, con acceso directo desde la ruta PY02 y aparcamiento privado cerrado y vigilado por cámara.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__body">
+            <span class="card__kicker">En coche</span>
+            <h3>Desde Asunción</h3>
+            <p>Toma la ruta PY02 hacia Capiatá y sigue las indicaciones del salón. El aparcamiento tiene capacidad para 8 coches, ampliable según el evento.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__body">
+            <span class="card__kicker">En transporte</span>
+            <h3>Líneas de la zona</h3>
+            <p>Los colectivos de la ruta PY02 paran a pocas cuadras. Coordinamos el descenso y el acceso a pie al confirmar la visita.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__body">
+            <span class="card__kicker">Visita</span>
+            <h3>Recorrer el salón</h3>
+            <p>Las visitas se coordinan con antelación para recorrer la sala, el patio y el altillo con calma.</p>
+            <a class="link-arrow" href="https://wa.me/595981000000" target="_blank" rel="noopener">Pedir una visita</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="brand-mark">Bel<span>Vie</span></span>
+          <p class="footer-tag">Salón de eventos y organización integral en Capiatá. Sala, patio y altillo para celebraciones privadas, empresas y conciertos.</p>
+        </div>
+        <div class="footer-col">
+          <h4>El lugar</h4>
+          <ul>
+            <li><a href="el-salon.html">El salón Mainumby</a></li>
+            <li><a href="el-salon.html#espacios">Los tres espacios</a></li>
+            <li><a href="el-salon.html#capacidades">Capacidades</a></li>
+            <li><a href="el-salon.html#acceso">Acceso y aparcamiento</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Eventos</h4>
+          <ul>
+            <li><a href="celebraciones.html">Bodas y quince años</a></li>
+            <li><a href="celebraciones.html#egresos">Egresos</a></li>
+            <li><a href="empresas.html">Empresas e instituciones</a></li>
+            <li><a href="empresas.html#conciertos">Conciertos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+595994900040">Tel. 0994 900 040</a></li>
+            <li><a href="mailto:info@belvie.com.py">info@belvie.com.py</a></li>
+            <li><a href="https://wa.me/595981000000" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><span>Capiatá, Paraguay</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 BelVie EAS · RUC 80176986-9</span>
+        <span><a href="aviso-legal.html">Aviso legal y condiciones de uso</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-bar">
+    <a class="bar-call" href="tel:+595994900040">Llamar</a>
+    <a class="bar-wa" href="https://wa.me/595981000000" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script src="JS/main.js"></script>
+</body>
+</html>

@@ -3,464 +3,268 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BelVie Eventos - Salon Mainumby, Capiata</title>
+  <title>BelVie · Salón de eventos Mainumby · Capiatá</title>
+  <meta name="description" content="BelVie, salón de eventos y organización integral en Capiatá. Sala de 220 m², patio de 200 m² y altillo privado para bodas, quince años, eventos corporativos y conciertos." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav id="navbar">
-    <div class="nav-logo">
-      <span class="logo-script">BelVie</span>
-      <span class="logo-sub">Eventos</span>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">Bel<span>Vie</span></span>
+        <span class="brand-sub"><strong>Salón Mainumby</strong>Capiatá · Paraguay</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+      <nav class="nav">
+        <a href="el-salon.html">El salón</a>
+        <a href="celebraciones.html">Celebraciones</a>
+        <a href="empresas.html">Empresas</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="galeria.html">Galería</a>
+        <a href="faq.html">FAQ</a>
+        <a class="nav-cta" href="contacto.html">Pedir presupuesto</a>
+      </nav>
     </div>
-    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="#salon">El sal&#243;n</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#galeria">Fotos</a></li>
-      <li><a href="#quienes">Qui&#233;nes Somos</a></li>
-      <li><a href="#porquenos">&#191;Por qu&#233;?</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contacto" class="nav-cta">Contacto</a></li>
-    </ul>
-  </nav>
+  </header>
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-inner">
-      <div class="hero-logo">
-        <span class="logo-script-hero">BelVie</span>
-        <span class="logo-sub-hero">Eventos</span>
-      </div>
-      <p class="hero-tagline">Disfrutar del momento juntos.</p>
-      <a href="#salon" class="btn-hero">Descubrir</a>
+  <section class="hero">
+    <div class="hero__media">
+      <img src="assets/img/mainumby.jpg" alt="Patio del salón Mainumby de noche, mesas vestidas bajo las arcadas y guirnaldas de luces" />
     </div>
-    <div class="hero-scroll-hint">&#8595;</div>
-  </section>
-
-  <!-- SALON -->
-  <section id="salon" class="section">
-    <div class="container">
-      <h2 class="section-title">El sal&#243;n &#171;Mainumby&#187;</h2>
-      <p class="section-lead">El sal&#243;n &#171;Mainumby&#187;, muy conocido en la ciudad de Capiat&#224;, renace tras una renovaci&#243;n completa. Se puede llegar f&#225;cilmente desde la ruta PY02 en Capiat&#224;.</p>
-      <p class="section-lead">El sal&#243;n y/o su patio se pueden alquilar para tus eventos, tanto si eres un particular como un organizador de eventos.</p>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon">photos;</div>
-          <h3>Sala principal</h3>
-          <p>220 m&#178; con capacidad para XXX personas de pie y YYY personas sentadas a la mesa.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">photos;</div>
-          <h3>El altillo</h3>
-          <p>Destinado a los invitados de honor. Tambi&#233;n puede acoger a un grupo de diez personas para una reuni&#243;n de trabajo.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">photos;</div>
-          <h3>Patio exterior</h3>
-          <p>200 m&#178; para celebraciones al aire libre, con capacidad para XXX personas de pie y una gran parrilla.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">photos;</div>
-          <h3>Aparcamiento</h3>
-          <p>Privado, totalmente cerrado y vigilado por c&#225;mara. Capacidad para 8 coches, ampliable a 14.</p>
+    <div class="hero__inner">
+      <div class="container">
+        <span class="eyebrow">Salón de eventos · Capiatá, Paraguay</span>
+        <h1>Disfrutar del momento juntos.</h1>
+        <p class="hero__lead">Un salón renovado, un patio bajo las estrellas y un equipo que organiza tu evento de principio a fin. BelVie recibe bodas, quince años, egresos, eventos de empresa y conciertos a minutos de la ruta PY02.</p>
+        <div class="btn-row">
+          <a class="btn btn--gold" href="el-salon.html">Descubrir el salón</a>
+          <a class="btn btn--outline" href="contacto.html">Consultar disponibilidad</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SERVICIOS -->
-  <section id="servicios" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Nuestros servicios</h2>
-      <p class="section-lead">BelVie cuenta con recursos propios en materia de organizaci&#243;n, decoraci&#243;n y cocina. Adem&#225;s, contamos con una red de proveedores de confianza con los que llevamos trabajando muchos a&#241;os.</p>
-
-      <!-- Onglets types d'evenements -->
-      <div class="events-tabs">
-        <div class="tabs-nav">
-          <button class="tab-btn active" data-tab="bodas">Tu boda</button>
-          <button class="tab-btn" data-tab="familiar">Familiar</button>
-          <button class="tab-btn" data-tab="quince">Quince A&#241;os</button>
-          <button class="tab-btn" data-tab="egresos">Egresos</button>
-          <button class="tab-btn" data-tab="cocteles">C&#243;cteles</button>
-          <button class="tab-btn" data-tab="corp">Corporativo</button>
-          <button class="tab-btn" data-tab="inst">Institucional</button>
-          <button class="tab-btn" data-tab="conc">Conciertos</button>
-        </div>
-
-        <div id="tab-bodas" class="tab-panel active">
-          <h3>Tu boda</h3>
-          <p>Laura ha organizado m&#225;s de 350 bodas. Y cada vez es un placer y una motivaci&#243;n renovados.</p>
-          <ul>
-            <li><strong>Ceremonia civil</strong> &#8211; Espacios acondicionados dentro de nuestro recinto para celebrar tu enlace con elegancia, confort y calidez &#237;ntima.</li>
-            <li><strong>Ceremonia religiosa</strong> &#8211; Coordinaci&#243;n y asistencia protocolar para el traslado, tiempos y recepci&#243;n tras la bendici&#243;n nupcial.</li>
-            <li><strong>Ceremonias simb&#243;licas</strong> &#8211; Ambientaci&#243;n y coordinaci&#243;n especial para bodas de arena, velas, plantaciones o votos personalizados en un marco rom&#225;ntico.</li>
-            <li><strong>Bodas &#237;ntimas</strong> &#8211; Formatos acogedores y sofisticados dise&#241;ados para compartir este gran paso con tus seres m&#225;s allegados.</li>
-          </ul>
-        </div>
-
-        <div id="tab-familiar" class="tab-panel">
-          <h3>Eventos Internos y Familiares</h3>
-          <p>&#161;La sala te espera con todo su equipamiento!</p>
-          <ul>
-            <li><strong>Aniversarios especiales</strong> &#8211; Fiesta especial en el sal&#243;n o en el patio para honrar a tus seres queridos.</li>
-            <li><strong>Fiestas de fin de a&#241;o</strong> &#8211; La celebraci&#243;n de cierre de a&#241;o esperada por los colaboradores: diversi&#243;n, shows, excelente comida y barra libre.</li>
-            <li><strong>Team building</strong> &#8211; Jornadas de integraci&#243;n enfocadas en potenciar el trabajo en equipo mediante actividades recreativas.</li>
-            <li><strong>Capacitaciones</strong> &#8211; Aulas acondicionadas ergon&#243;micamente con tecnolog&#237;a audiovisual.</li>
-            <li><strong>Jornadas recreativas</strong> &#8211; D&#237;as al aire libre o en recinto con juegos, din&#225;micas grupales y gastronom&#237;a distendida.</li>
-          </ul>
-        </div>
-
-        <div id="tab-quince" class="tab-panel">
-          <h3>Quince A&#241;os</h3>
-          <p>Para que la princesa est&#233; radiante:</p>
-          <ul>
-            <li><strong>Organizaci&#243;n integral</strong> &#8211; Acompa&#241;amiento completo desde la primera idea hasta el &#250;ltimo baile.</li>
-            <li><strong>Dise&#241;o tem&#225;tico personalizado</strong> &#8211; Conceptualizaci&#243;n exclusiva seg&#250;n los gustos y estilo de la quincea&#241;era.</li>
-            <li><strong>Coreograf&#237;a y ensayo</strong> &#8211; Coordinaci&#243;n de la danza de entrada, el vals y las coreograf&#237;as especiales.</li>
-            <li><strong>Entrada especial</strong> &#8211; Efectos visuales, iluminaci&#243;n de impacto y producci&#243;n esc&#233;nica para una llegada memorable.</li>
-            <li><strong>Show tem&#225;tico</strong> &#8211; Intervenciones art&#237;sticas y bailarines que llenan de energ&#237;a la velada.</li>
-            <li><strong>Producci&#243;n audiovisual</strong> &#8211; Proyecci&#243;n de videos cronol&#243;gicos y cobertura en pantallas de alta definici&#243;n.</li>
-            <li><strong>Mesa dulce tem&#225;tica</strong> &#8211; Rinc&#243;n gastron&#243;mico decorado minuciosamente con la tem&#225;tica elegida.</li>
-            <li><strong>Coordinaci&#243;n de protocolo</strong> &#8211; Supervisi&#243;n de cada etapa: recepci&#243;n, zapatilla, velas, vals, brindis y cotill&#243;n.</li>
-          </ul>
-        </div>
-
-        <div id="tab-egresos" class="tab-panel">
-          <h3>Egresos</h3>
-          <p>Para que esta noche quede grabada en la memoria:</p>
-          <ul>
-            <li><strong>Fiesta de graduaci&#243;n</strong> &#8211; La gran noche de celebraci&#243;n de fin de etapa con el mejor ambiente festivo y seguridad para graduados y familias.</li>
-            <li><strong>Cena formal</strong> &#8211; Servicio gastron&#243;mico de primer nivel en mesas vestidas formalmente.</li>
-            <li><strong>Acto acad&#233;mico</strong> &#8211; Montaje solemne con escenario, sonido profesional y disposici&#243;n formal para la entrega de reconocimientos.</li>
-            <li><strong>Recepci&#243;n posterior</strong> &#8211; Brindis y c&#243;ctel distendido para felicitar a los egresados.</li>
-            <li><strong>Producci&#243;n escenogr&#225;fica</strong> &#8211; Decoraci&#243;n imponente con estructuras e iluminaci&#243;n rob&#243;tica.</li>
-            <li><strong>After party</strong> &#8211; Continuaci&#243;n de la fiesta con DJ en vivo, barra libre y finger food.</li>
-          </ul>
-        </div>
-
-        <div id="tab-cocteles" class="tab-panel">
-          <h3>C&#243;cteles y Degustaciones</h3>
-          <p>Encuentros elegantes de formato de pie o semiformal, ideales para:</p>
-          <ul>
-            <li>Degustaciones de maridaje</li>
-            <li>Aniversarios</li>
-            <li>Recepciones sociales distinguidas</li>
-          </ul>
-          <p>Los c&#243;cteles pueden celebrarse en el interior de la sala y/o al aire libre en el patio para disfrutar de las noches de Capiat&#224;.</p>
-        </div>
-
-        <div id="tab-corp" class="tab-panel">
-          <h3>Eventos Empresariales y Corporativos</h3>
-          <p>La sala principal tiene capacidad para 220 personas sentadas en filas y 350 personas de pie, con todo el equipo audiovisual necesario.</p>
-          <ul>
-            <li><strong>Lanzamientos de marca o producto</strong> &#8211; Escenograf&#237;a y puesta en escena impactante.</li>
-            <li><strong>Inauguraciones</strong> &#8211; Aperturas oficiales con protocolo y atenci&#243;n gastron&#243;mica de alto nivel.</li>
-            <li><strong>Conferencias y Seminarios</strong> &#8211; Auditorio con ac&#250;stica impecable, microfon&#237;a inal&#225;mbrica y conectividad.</li>
-            <li><strong>Workshops</strong> &#8211; Configuraciones de sala flexibles para din&#225;micas participativas.</li>
-            <li><strong>Convenciones</strong> &#8211; Organizaci&#243;n integral de jornadas multisesi&#243;n para redes comerciales.</li>
-            <li><strong>Networking</strong> &#8211; Formatos relajados que facilitan la interacci&#243;n y los negocios entre asistentes.</li>
-            <li><strong>Aniversarios empresariales</strong> &#8211; Galas corporativas para festejar los hitos y a&#241;os de trayectoria.</li>
-          </ul>
-        </div>
-
-        <div id="tab-inst" class="tab-panel">
-          <h3>Eventos Institucionales</h3>
-          <ul>
-            <li><strong>Premiaciones</strong> &#8211; Escenarios de gala con iluminaci&#243;n puntual y coordinaci&#243;n para la entrega de galardones.</li>
-            <li><strong>Aniversarios institucionales</strong> &#8211; Celebraciones formales para entidades p&#250;blicas o privadas con altos est&#225;ndares.</li>
-            <li><strong>Cenas de gala</strong> &#8211; Servicio emplatado de alta cocina con ambientaci&#243;n sobria y sofisticada.</li>
-            <li><strong>Eventos protocolares</strong> &#8211; Gesti&#243;n rigurosa de banderas, autoridades, alocuciones e himnos bajo normativas protocolares oficiales.</li>
-          </ul>
-        </div>
-
-        <div id="tab-conc" class="tab-panel">
-          <h3>Conciertos</h3>
-          <p>La sala principal tiene capacidad para 220 personas sentadas y 350 de pie. La ac&#250;stica es excelente y puede mejorarse mediante paneles reflectantes.</p>
-          <ul>
-            <li><strong>Solistas</strong> &#8211; Marco &#237;ntimo con ac&#250;stica natural.</li>
-            <li><strong>M&#250;sica de c&#225;mara</strong> &#8211; Configuraciones modulables seg&#250;n el efectivo.</li>
-            <li><strong>Conciertos privados</strong> &#8211; M&#250;sica cl&#225;sica o rock, con cabina disponible para el t&#233;cnico de sonido y luces.</li>
-          </ul>
-        </div>
+  <div class="stats-strip">
+    <div class="stats-strip__inner">
+      <div class="stat">
+        <span class="stat__num">220 m²</span>
+        <span class="stat__label">Sala principal</span>
       </div>
-
-      <!-- Grille des prestations -->
-      <h3 class="subsection-title">Nuestras prestaciones</h3>
-      <div class="services-grid">
-        <div class="service-item">&#128203;<span>Preparaci&#243;n del evento</span></div>
-        <div class="service-item">&#127919;<span>Coordinaci&#243;n el d&#237;a J</span></div>
-        <div class="service-item">&#127800;<span>Ambientaci&#243;n y Decoraci&#243;n</span></div>
-        <div class="service-item">&#127829;<span>Restauraci&#243;n</span></div>
-        <div class="service-item">&#127990;<span>Recepciones</span></div>
-        <div class="service-item">&#127925;<span>Entretenimiento</span></div>
-        <div class="service-item">&#127865;<span>Bebidas</span></div>
-        <div class="service-item">&#127856;<span>Men&#250; Eventos</span></div>
-        <div class="service-item">&#128247;<span>Recuerdos</span></div>
-        <div class="service-item">&#10133;<span>Servicios complementarios</span></div>
+      <div class="stat">
+        <span class="stat__num">200 m²</span>
+        <span class="stat__label">Patio exterior</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">XXX</span>
+        <span class="stat__label">Personas de pie</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">08 · ZZ</span>
+        <span class="stat__label">Plazas de aparcamiento</span>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- GALERIA -->
-  <section id="galeria" class="section">
+  <section class="section">
     <div class="container">
-      <h2 class="section-title">Galer&#237;a de fotos y v&#237;deos</h2>
-      <p class="section-lead">Un escaparate visual que muestra nuestras instalaciones reales, montajes tem&#225;ticos, iluminaci&#243;n y momentos emotivos de eventos pasados.</p>
-      <div class="gallery-placeholder">
-        <div class="gallery-item">Bodas</div>
-        <div class="gallery-item">Quince A&#241;os</div>
-        <div class="gallery-item">Corporativo</div>
-        <div class="gallery-item">El sal&#243;n</div>
-        <div class="gallery-item">Egresos</div>
-        <div class="gallery-item">C&#243;cteles</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- QUIENES SOMOS -->
-  <section id="quienes" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Qui&#233;nes Somos</h2>
-      <p class="section-lead">BelVie es fruto del encuentro entre la Sra. Laura RODR&#205;GUEZ y el Sr. Philippe DIDIER. &#161;Somos una empresa joven, pero con mucha experiencia!</p>
-      <div class="founders-grid">
-        <div class="founder-card">
-          <div class="founder-avatar">LR</div>
-          <h3>Laura RODR&#205;GUEZ</h3>
-          <p>Organizadora de eventos de prestigio desde hace m&#225;s de quince a&#241;os en Paraguay y jefa de cocina. Es toda una referencia en Asunci&#243;n.</p>
-          <p>M&#225;s de 350 bodas en su haber. Ha dirigido dos restaurantes antes de crear su propio servicio de catering y organizaci&#243;n de eventos.</p>
-        </div>
-        <div class="founder-card">
-          <div class="founder-avatar">PD</div>
-          <h3>Philippe DIDIER</h3>
-          <p>Inversor y &#171;serial-emprendedor&#187; con amplia experiencia, Philippe es el motor financiero y estrat&#233;gico que hace posible BelVie.</p>
-        </div>
-        <div class="founder-card">
-          <div class="founder-avatar">JR</div>
-          <h3>Jazm&#237;n RODR&#205;GUEZ</h3>
-          <p>Responsable ejecutiva del sal&#243;n de Capiat&#224;. Los tres cuentan con una red de colaboradores y proveedores que llevan a&#241;os trabajando juntos.</p>
-        </div>
-      </div>
-      <div class="closing-block">
-        <p>BelVie ofrece todos los servicios necesarios para que tu evento sea un momento inolvidable, tanto para ti como para tus invitados.</p>
-        <p>Te acompa&#241;amos antes, durante y despu&#233;s del evento.</p>
-        <p>Esperamos poder atenderte pronto.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- POR QUE -->
-  <section id="porquenos" class="section">
-    <div class="container">
-      <h2 class="section-title">&#191;Por qu&#233; elegirnos?</h2>
-      <div class="values-grid">
-        <div class="value-card">
-          <div class="value-icon">Photo;</div>
-          <h3>Escucha Activa</h3>
-          <p>Nos tomamos el tiempo de entender profundamente tus deseos, necesidades y presupuesto para plasmar exactamente lo que sue&#241;as.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">Photo;</div>
-          <h3>Profesionalismo</h3>
-          <p>Planificaci&#243;n rigurosa, cronogramas exactos y ejecuci&#243;n impecable sin lugar a la improvisaci&#243;n ni al estr&#233;s.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">Photo;</div>
-          <h3>Servicio completo</h3>
-          <p>Soluciones integrales &#171;llave en mano&#187; totalmente personalizables seg&#250;n las preferencias y alcance de cada cliente.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">Photo;</div>
-          <h3>Creatividad</h3>
-          <p>Dise&#241;os tem&#225;ticos &#250;nicos, ambientaciones innovadoras y soluciones originales que hacen que tu fiesta sea aut&#233;ntica y memorable.</p>
-        </div>
-        <div class="value-card">
-          <div class="value-icon">&#129309;</div>
-          <h3>Amabilidad</h3>
-          <p>Atenci&#243;n cercana, c&#225;lida y respetuosa de todo nuestro personal, haciendo sentir a cada anfitri&#243;n e invitado como en casa.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Preguntas frecuentes</h2>
-
-      <h3 class="faq-category">Reservas y Fechas</h3>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q">&#191;Con cu&#225;nta anticipaci&#243;n debo reservar mi fecha?</button>
-          <div class="faq-a">Recomendamos realizar la reserva con 6 a 12 meses de anticipaci&#243;n para eventos grandes (bodas, 15 a&#241;os) y con al menos 2 a 3 meses para eventos corporativos o sociales menores, sujeto a disponibilidad.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;C&#243;mo aseguro o confirmo la fecha de mi evento?</button>
-          <div class="faq-a">La fecha queda oficialmente bloqueada y confirmada tras la firma del contrato de prestaci&#243;n de servicios y el pago de la se&#241;a inicial acordada.</div>
-        </div>
-      </div>
-
-      <h3 class="faq-category">Servicios e Instalaciones</h3>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q">&#191;Qu&#233; capacidad tiene el sal&#243;n BelVie?</button>
-          <div class="faq-a">Contamos con espacios adaptables para diferentes formatos de eventos, desde celebraciones &#237;ntimas hasta recepciones de gran escala.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;Qu&#233; incluye el alquiler del sal&#243;n?</button>
-          <div class="faq-a">El alquiler base incluye el uso exclusivo de las instalaciones durante las horas contratadas, climatizaci&#243;n central, iluminaci&#243;n base, personal de mantenimiento en sanitarios y supervisi&#243;n en puerta.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;Cuenta BelVie con servicio de Organizaci&#243;n Integral?</button>
-          <div class="faq-a">&#161;S&#237;! Ofrecemos el servicio de Organizaci&#243;n y Coordinaci&#243;n Integral. Nos encargamos de la planificaci&#243;n, cronograma, gesti&#243;n de proveedores y log&#237;stica previa y durante el d&#237;a del evento.</div>
-        </div>
-      </div>
-
-      <h3 class="faq-category">Catering y Gastronom&#237;a</h3>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q">&#191;Ofrecen servicio de catering propio o puedo llevar mi propio proveedor?</button>
-          <div class="faq-a">Contamos con propuestas gastron&#243;micas exclusivas. Si deseas contratar un catering externo, debe ser evaluado y aprobado previamente para garantizar los est&#225;ndares de calidad.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;Manejan men&#250;s especiales (vegetarianos, cel&#237;acos, infantiles)?</button>
-          <div class="faq-a">Absolutamente. Adecuamos el men&#250; a las necesidades alimentarias de tus invitados, previa coordinaci&#243;n en la etapa de planificaci&#243;n.</div>
-        </div>
-      </div>
-
-      <h3 class="faq-category">Ambientaci&#243;n, M&#250;sica y Proveedores</h3>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q">&#191;Puedo llevar mis propios proveedores (fot&#243;grafo, DJ, decorador)?</button>
-          <div class="faq-a">S&#237;, puedes trabajar con tus proveedores de confianza. Todos los proveedores externos deber&#225;n coordinar previamente con nuestro equipo de log&#237;stica el montaje, desmontaje y requisitos t&#233;cnicos.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;Hasta qu&#233; hora puede durar el evento?</button>
-          <div class="faq-a">El horario l&#237;mite se establece en el contrato seg&#250;n el tipo de evento y las normativas vigentes de emisi&#243;n de sonido. Es posible contratar horas adicionales previa coordinaci&#243;n.</div>
-        </div>
-      </div>
-
-      <h3 class="faq-category">Pagos y Pol&#237;ticas</h3>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q">&#191;Cu&#225;les son los medios de pago aceptados?</button>
-          <div class="faq-a">Aceptamos transferencias bancarias, dep&#243;sitos y pagos en efectivo.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">&#191;Cu&#225;l es la pol&#237;tica de cancelaci&#243;n o reprogramaci&#243;n?</button>
-          <div class="faq-a">Las condiciones de cancelaci&#243;n, reprogramaci&#243;n por fuerza mayor y devoluciones est&#225;n contempladas de forma clara y transparente en nuestro contrato de servicios.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog" class="section">
-    <div class="container">
-      <h2 class="section-title">Blog / Noticias</h2>
-      <p class="section-lead">Art&#237;culos informativos, consejos de planificaci&#243;n, tendencias en decoraci&#243;n y testimonios de clientes.</p>
-      <div class="blog-placeholder">
-        <div class="blog-card">Art&#237;culo 1 &#8211; Consejos para organizar tu boda</div>
-        <div class="blog-card">Art&#237;culo 2 &#8211; Tendencias decoraci&#243;n 2026</div>
-        <div class="blog-card">Art&#237;culo 3 &#8211; Testimonio de cliente</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACTO -->
-  <section id="contacto" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Contacto</h2>
-      <div class="contact-grid">
-        <div class="contact-block">
-          <h3>WhatsApp</h3>
-          <a
-  class="btn-whatsapp"
-  href="https://wa.me/33623516056?text=%C2%A1Hola%20BelVie!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20sal%C3%B3n%20Mainumby%20y%20sus%20servicios."
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Escribirnos en WhatsApp
-</a>
-        </div>
-        <div class="contact-block">
-          <h3>Formulario de cotizaci&#243;n</h3>
-          <div class="form-group"><label>Nombre</label><input type="text" placeholder="Tu nombre" /></div>
-          <div class="form-group"><label>Email</label><input type="email" placeholder="tu@email.com" /></div>
-          <div class="form-group">
-            <label>Tipo de evento</label>
-            <select>
-              <option value="">&#8211; Seleccionar &#8211;</option>
-              <option>Boda</option>
-              <option>Quince A&#241;os</option>
-              <option>Egreso</option>
-              <option>Corporativo</option>
-              <option>Otro</option>
-            </select>
+      <div class="split">
+        <div>
+          <span class="eyebrow">El lugar</span>
+          <h2>Un salón que renace en el corazón de Capiatá</h2>
+          <p>El salón «Mainumby», muy conocido en la ciudad de Capiatá, reabre tras una renovación completa. Se llega fácilmente desde la ruta PY02, con acceso directo y aparcamiento privado.</p>
+          <p>La sala y el patio se alquilan por separado o juntos, tanto a particulares como a organizadores de eventos. Un mismo equipo se ocupa de la decoración, la cocina y la coordinación del día.</p>
+          <div class="btn-row">
+            <a class="btn btn--line" href="el-salon.html">Ver los espacios</a>
           </div>
-          <div class="form-group"><label>Mensaje</label><textarea rows="4" placeholder="Cu&#233;ntanos sobre tu evento..."></textarea></div>
-          <button class="btn-submit">Enviar solicitud</button>
         </div>
-        <div class="contact-block">
-          <h3>C&#243;mo llegar</h3>
-          <p>Sal&#243;n Mainumby &#8211; Capiat&#224;, Paraguay<br />Acceso desde la ruta PY02</p>
-          <div class="map-placeholder">[ Google Maps ]</div>
+        <div class="split__media">
+          <div class="crop-b" style="overflow:hidden">
+            <img src="assets/img/mainumby.jpg" alt="Arcadas del patio iluminadas con guirnaldas" />
+          </div>
+          <p class="split__caption">Patio exterior · 200 m² para celebraciones al aire libre.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- LEGAL -->
-  <section id="legal" class="section legal-section">
+  <section class="section section--alt">
     <div class="container">
-      <h2 class="section-title">Aviso Legal y Condiciones de Uso</h2>
-      <div class="legal-grid">
-        <div>
-          <h4>1. Datos de la Empresa</h4>
-          <p>Nombre comercial: <strong>BelVie</strong><br />Responsable legal: Philippe Jean-Marie DIDIER<br />RUC: 80176986-9<br />Rubro: Organizaci&#243;n Integral de Eventos y Alquiler de Sal&#243;n<br />Pa&#237;s: Rep&#250;blica del Paraguay</p>
+      <div class="section-head">
+        <span class="eyebrow">Ocasiones</span>
+        <h2>Tres formas de celebrar</h2>
+        <p>Cada tipo de evento pide un montaje distinto. Elige el tuyo: te mostramos los formatos, la capacidad y lo que incluye.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card">
+          <div class="card__media crop-a"><img src="assets/img/mainumby.jpg" alt="Mesa de banquete vestida en el salón" /></div>
+          <div class="card__body">
+            <span class="card__kicker">Particulares</span>
+            <h3>Celebraciones privadas</h3>
+            <p>Bodas, quince años, egresos, aniversarios y fiestas familiares, con organización integral o solo el alquiler del espacio.</p>
+            <a class="link-arrow" href="celebraciones.html">Ver celebraciones</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media crop-c"><img src="assets/img/mainumby.jpg" alt="Salón preparado para una presentación" /></div>
+          <div class="card__body">
+            <span class="card__kicker">Empresas e instituciones</span>
+            <h3>Eventos corporativos</h3>
+            <p>Lanzamientos, conferencias, convenciones, cenas de gala y actos protocolares con equipamiento audiovisual completo.</p>
+            <a class="link-arrow" href="empresas.html">Ver eventos de empresa</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__media crop-d"><img src="assets/img/mainumby.jpg" alt="Patio del salón iluminado para un concierto" /></div>
+          <div class="card__body">
+            <span class="card__kicker">Música y cócteles</span>
+            <h3>Conciertos y recepciones</h3>
+            <p>Solistas, música de cámara y conciertos privados, con escenario, cabina técnica y una acústica pensada para escuchar.</p>
+            <a class="link-arrow" href="empresas.html#conciertos">Ver conciertos</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-band">
+    <div class="container">
+      <blockquote>«Laura lleva más de quince años organizando eventos de prestigio. Tiene más de 350 bodas en su haber y cada una sigue siendo un placer.»</blockquote>
+      <cite>BelVie · Organización integral de eventos</cite>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split split--reverse">
+        <div class="split__media split__media--wide crop-e">
+          <img src="assets/img/mainumby.jpg" alt="Salón Mainumby al anochecer" />
         </div>
         <div>
-          <h4>2. Objeto del Sitio Web</h4>
-          <p>El presente aviso legal regula el uso del sitio web de BelVie. Al navegar por esta p&#225;gina, el usuario acepta de forma plena las condiciones aqu&#237; descritas.</p>
-        </div>
-        <div>
-          <h4>3. Propiedad Intelectual</h4>
-          <p>Todos los contenidos (textos, logotipo, marcas, im&#225;genes y dise&#241;o) son propiedad exclusiva de BelVie. Queda prohibida la copia, distribuci&#243;n o modificaci&#243;n sin autorizaci&#243;n previa por escrito.</p>
-        </div>
-        <div>
-          <h4>4. Privacidad</h4>
-          <p>Los datos personales enviados a trav&#233;s de formularios ser&#225;n tratados con total confidencialidad y utilizados exclusivamente para responder solicitudes y coordinar propuestas para eventos.</p>
-        </div>
-        <div>
-          <h4>5. Exoneraci&#243;n de Responsabilidad</h4>
-          <p>Los presupuestos, paquetes o fechas disponibles mostrados en la web tienen car&#225;cter puramente informativo. Los t&#233;rminos y costos definitivos se fijar&#225;n &#250;nicamente en el contrato formal firmado entre las partes.</p>
-        </div>
-        <div>
-          <h4>6. Jurisdicci&#243;n</h4>
-          <p>Este documento se rige conforme a las leyes de la Rep&#250;blica del Paraguay. Jurisdicci&#243;n: Tribunales de la Capital (Asunci&#243;n, Paraguay).</p>
+          <span class="eyebrow">Nuestro saber-hacer</span>
+          <h2>Un solo equipo, del primer boceto al último baile</h2>
+          <p>BelVie reúne recursos propios de organización, decoración y cocina, y una red de proveedores con los que trabajamos desde hace años. Tú decides el alcance: el salón solo, o la experiencia completa «llave en mano».</p>
+          <div class="figures" style="margin-top:30px">
+            <div class="figure">
+              <span class="figure__num">350</span>
+              <span class="figure__label">Bodas organizadas</span>
+            </div>
+            <div class="figure">
+              <span class="figure__num">15</span>
+              <span class="figure__label">Años de experiencia</span>
+            </div>
+            <div class="figure">
+              <span class="figure__num">10</span>
+              <span class="figure__label">Servicios cubiertos</span>
+            </div>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn--line" href="servicios.html">Ver servicios e inversión</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-logo">
-      <span class="logo-script">BelVie</span>
-      <span class="logo-sub">Eventos</span>
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Galería</span>
+        <h2>El salón, en imágenes</h2>
+        <p>Instalaciones reales, montajes temáticos e iluminación. Las fotos de eventos anteriores se irán sumando a medida que el cliente nos las comparta.</p>
+      </div>
+      <div class="gallery-grid">
+        <a class="gallery-item gallery-item--wide crop-a" href="galeria.html">
+          <img src="assets/img/mainumby.jpg" alt="Vista general del patio del salón" />
+          <span class="gallery-item__label">El patio al anochecer</span>
+        </a>
+        <a class="gallery-item crop-b" href="galeria.html">
+          <img src="assets/img/mainumby.jpg" alt="Detalle de las mesas y la decoración" />
+          <span class="gallery-item__label">Montaje de banquete</span>
+        </a>
+        <a class="gallery-item crop-c" href="galeria.html">
+          <img src="assets/img/mainumby.jpg" alt="Arcadas y vegetación del patio" />
+          <span class="gallery-item__label">Arcadas y jardín</span>
+        </a>
+        <a class="gallery-item crop-d" href="galeria.html">
+          <img src="assets/img/mainumby.jpg" alt="Mesas vistas en perspectiva" />
+          <span class="gallery-item__label">Salón principal</span>
+        </a>
+        <a class="gallery-item crop-e" href="galeria.html">
+          <img src="assets/img/mainumby.jpg" alt="Iluminación exterior" />
+          <span class="gallery-item__label">Iluminación</span>
+        </a>
+      </div>
     </div>
-    <div class="footer-info">
-      <span>BelVie EAS &nbsp;&middot;&nbsp; RUC 80176986-9</span>
-      <span>Tel: 0994 900040</span>
-      <span>info@belvie.com.py</span>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <div>
+        <span class="eyebrow eyebrow--light">Disponibilidad</span>
+        <h2>Contanos tu fecha. Te respondemos en 24 horas.</h2>
+        <p>Recomendamos reservar con 6 a 12 meses de anticipación para bodas y quince años, y con 2 a 3 meses para eventos de empresa.</p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--gold" href="contacto.html">Pedir presupuesto</a>
+        <a class="btn btn--outline" href="https://wa.me/595981000000?text=Hola%20BelVie%2C%20quisiera%20consultar%20disponibilidad" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
     </div>
-    <p class="footer-copy">&copy; 2026 BelVie EAS &#8211; Todos los derechos reservados</p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="brand-mark">Bel<span>Vie</span></span>
+          <p class="footer-tag">Salón de eventos y organización integral en Capiatá. Sala, patio y altillo para celebraciones privadas, empresas y conciertos.</p>
+        </div>
+        <div class="footer-col">
+          <h4>El lugar</h4>
+          <ul>
+            <li><a href="el-salon.html">El salón Mainumby</a></li>
+            <li><a href="el-salon.html#espacios">Los tres espacios</a></li>
+            <li><a href="el-salon.html#capacidades">Capacidades</a></li>
+            <li><a href="el-salon.html#acceso">Acceso y aparcamiento</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Eventos</h4>
+          <ul>
+            <li><a href="celebraciones.html">Bodas y quince años</a></li>
+            <li><a href="celebraciones.html#egresos">Egresos</a></li>
+            <li><a href="empresas.html">Empresas e instituciones</a></li>
+            <li><a href="empresas.html#conciertos">Conciertos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="tel:+595994900040">Tel. 0994 900 040</a></li>
+            <li><a href="mailto:info@belvie.com.py">info@belvie.com.py</a></li>
+            <li><a href="https://wa.me/595981000000" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><span>Capiatá, Paraguay</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 BelVie EAS · RUC 80176986-9</span>
+        <span><a href="aviso-legal.html">Aviso legal y condiciones de uso</a></span>
+      </div>
+    </div>
   </footer>
 
+  <div class="mobile-bar">
+    <a class="bar-call" href="tel:+595994900040">Llamar</a>
+    <a class="bar-wa" href="https://wa.me/595981000000" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
 
-<script src="js/main.js"></script>
+  <script src="JS/main.js"></script>
 </body>
 </html>
