@@ -1,0 +1,2 @@
+Dépose ici les photos brutes du salon (jpg/png/heic, pleine résolution).
+Elles ne sont pas publiées : le site utilise uniquement assets/img/.
